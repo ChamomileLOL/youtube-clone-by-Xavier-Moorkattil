@@ -1,0 +1,17 @@
+/* Load the base layer of Tailwind styles.
+   Think of this like brushing your teeth in the morning.
+   Before anything fancy—buttons, colors, or layouts—you need basic hygiene.
+   This includes setting up default margins, fonts, and making sure things look neat. */
+@tailwind base;
+
+/* Bring in reusable building blocks, like buttons, cards, and input styles.
+   Imagine this as putting on your uniform or dressing up for the day.
+   These components help you avoid writing the same styling again and again.
+   It saves you from repeating the same sentence when you already said it well once. */
+@tailwind components;
+
+/* This is your utility belt—the final touches like colors, spacing, text sizes.
+   Like choosing your shoes, watch, or hairstyle.
+   These utilities give you total control to fine-tune and personalize each element.
+   You now look ready, not just presentable, but confident. */
+@tailwind utilities;

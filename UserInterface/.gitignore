@@ -1,0 +1,53 @@
+# 📦 Any folder named 'logs' – skip it, it's full of runtime gossip we don't need to store.
+logs
+
+# 🧾 Every file that ends in '.log' – that's like the black box of an airplane after a crash. Only needed temporarily.
+*.log
+
+# 🪲 These are debug files made when npm throws tantrums. Keep them away from your final code.
+npm-debug.log*
+
+# 🎭 Same drama, but from yarn. If something goes wrong, yarn writes in these. We don’t want them tracked.
+yarn-debug.log*
+yarn-error.log*
+
+# 🧵 And here's pnpm joining the debugging party. Out they go.
+pnpm-debug.log*
+
+# 🧩 If you use lerna for monorepos, this file stores error details—delete from Git tracking.
+lerna-debug.log*
+
+# 🏗️ The full 'node_modules' folder – imagine an entire factory setup just to run your app. Too bulky to upload.
+node_modules
+
+# 📦 'dist' is the cooked version of your code (like packaged noodles). Keep it local, don’t upload.
+dist
+
+# 🍜 'dist-ssr' is like 'dist', but for server-side dishes. Again, keep it off Git.
+dist-ssr
+
+# 🌍 Files ending in '.local' are settings specific to your own machine. Others don't need your home address.
+*.local
+
+# 🛠️ Developer's playground – skip the entire .vscode folder, it's just personal IDE stuff.
+.vscode/*
+
+# 🎯 But hey, allow 'extensions.json' inside VSCode. That one helps teammates install the right tools.
+!.vscode/extensions.json
+
+# 🧠 IntelliJ or WebStorm users? '.idea' is their brain-dump. Let it stay out of Git.
+.idea
+
+# 🍏 Mac users – '.DS_Store' is a behind-the-scenes file for Finder. Completely useless in Git.
+.DS_Store
+
+# 🧪 Windows Visual Studio creates these project files – again, they’re personal. Ignore them.
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ❓ Finally, anything ending in '.sw?' – like '.swa', '.swb' – usually temporary junk. No place in your repo.
+*.sw?
+
+.env

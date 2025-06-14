@@ -1,0 +1,159 @@
+# We don't want trash from the console – it just pollutes the project.
+# These are logs: the digital equivalent of farting in an elevator.
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Node.js sometimes creates a 'report' if things crash.
+# Think of it as a crime scene photo. We don't want to share that.
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# These files track running processes.
+# But once the app stops, they become useless zombies. Ignore them.
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# These are created when tools like jscoverage test our code.
+# It’s like putting a microscope on your code, but we don’t commit the microscope results.
+lib-cov
+
+# Coverage reports from test tools (like Istanbul).
+# Think of it as exam papers—important to see once, but not submit to Git.
+coverage
+*.lcov
+
+# nyc also creates test coverage data.
+# It’s like your coaching class’s notes—private.
+.nyc_output
+
+# Grunt is a task runner. This folder stores temporary mess while it works.
+# Like a carpenter’s dust during furniture work. No need to store it.
+.grunt
+
+# Bower is an old package manager.
+# These are its downloaded packages. No need to upload what's already free.
+bower_components
+
+# If node-waf configures something, it drops this file.
+# Not needed in our version control.
+.lock-wscript
+
+# Compiled binary files live here. Heavy, machine-specific stuff.
+# You don’t post your blood reports in a resume—same logic.
+build/Release
+
+# These folders contain libraries downloaded by package managers.
+# Never upload these—they’re like ingredients you can always re-buy.
+node_modules/
+jspm_packages/
+
+# Snowpack, another tool, stores downloaded dependencies here.
+web_modules/
+
+# TypeScript remembers what it compiled last time in these files.
+# Like your brain caching yesterday’s homework. Not needed in Git.
+*.tsbuildinfo
+
+# npm stores its downloaded cache here.
+# Think of it as a grocery bag after emptying it. Bin it.
+.npm
+
+# eslint helps fix your code’s grammar.
+# It stores corrections in a cache—private stuff. Not for the repo.
+.eslintcache
+
+# stylelint does for CSS what eslint does for JS.
+# Again, its cache is like scratch paper. Don’t commit.
+.stylelintcache
+
+# Microbundle cache folders. Store pre-built bundles.
+# Like a chef’s pre-prepped food—nice, but temporary.
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# History from Node.js terminal (REPL).
+# Like your doodles during a lecture. Not worth sharing.
+.node_repl_history
+
+# This is created if you bundle your package using `npm pack`.
+# It’s like gift-wrapping your code. We don’t version the wrapping.
+*.tgz
+
+# Integrity check file for yarn.
+# Like a stamp of trust between you and yarn. No need to share.
+.yarn-integrity
+
+# These are your environment secrets (passwords, tokens).
+# Like your ATM PIN. Never ever post this online!
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Parcel (a bundler) saves temporary files here.
+# Like scribbles while making an artwork. Skip them.
+.cache
+.parcel-cache
+
+# Next.js puts its build output in `.next` and `out/`
+# Final artwork. Let Git ignore it because it’s auto-generated.
+.next
+out
+
+# Nuxt.js is similar to Next.js. It builds into this folder.
+.nuxt
+dist
+
+# Gatsby builds and caches data here.
+.cache/
+
+# If you use Gatsby, public/ may be important. Uncomment the next line if needed.
+# public
+
+# VuePress creates output here.
+.vuepress/dist
+
+# VuePress v2 uses .temp to store stuff temporarily.
+.temp
+
+# Docusaurus—another documentation tool—creates this folder.
+.docusaurus
+
+# Serverless framework builds stuff here.
+.serverless/
+
+# FuseBox cache. Tool-specific again. No need in Git.
+.fusebox/
+
+# Local DB files for testing DynamoDB.
+.dynamodb/
+
+# TernJS writes a port file here.
+# Like a shortcut key config. Ignore it.
+.tern-port
+
+# VSCode extension testers use this to track different versions.
+.vscode-test
+
+# Yarn v2 creates these cache and state files.
+# Think of it as yarn’s diary. Keep it private.
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Serverless + Webpack output. Again, temporary constructions.
+.webpack/
+
+# SvelteKit builds here. Auto-generated = skip.
+.svelte-kit
