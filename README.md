@@ -1,9 +1,10 @@
 # YouTube Clone — Fullstack App
 
-This is a YouTube clone built using Next.js 13+, Tailwind CSS, MongoDB, Prisma, and Cloudinary. Users can log in with Google, create a channel, upload videos, and interact with content — just like on YouTube.
+This is a YouTube clone built according by Xavier Moorkattil using Next.js 13+, Tailwind CSS, MongoDB, Prisma, and Cloudinary. Users can log in with Google, create a channel, upload videos, and interact with content — just like on YouTube.
 
-Features
-✅ Google Authentication (NextAuth.js)
+Features:
+
+✅ Google Authentication (NextAuth.js), App. Router (Next.js 13+)
 
 ✅ Upload & stream videos with Cloudinary
 
@@ -15,7 +16,25 @@ Features
 
 ✅ Fully responsive design
 
-Tech Stack
+## GitHub Link
+
+> [GitHub Repository]
+> ( <https://github.com/ChamomileLOL/youtube-clone-by-Xavier-Moorkattil> )
+
+## Video Demo Link
+
+> [Video Demo on Canva]
+> ( <https://www.canva.com/design/DAGrF_Bd4Xk/FoZayHB4E6AbH-RwbriplA/watch?utm_content=DAGrF_Bd4Xk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h136b812441> )
+
+## Tech Stack
+
+| Layer       | Tech Used                        |
+|-------------|----------------------------------|
+| Frontend    | Next.js 13+, Tailwind CSS        |
+| Backend     | Prisma + MongoDB                 |
+| Auth        | NextAuth.js (Google Provider)    |
+| Cloud       | Cloudinary (Video Storage)       |
+
 Frontend: Next.js 13 App Router, Tailwind CSS
 
 Backend: Prisma + MongoDB
@@ -128,8 +147,20 @@ Resources
 
 5. Prisma Docs
 
-Contributing
+## Note for Reviewers & Instructors
+
+This project does not include the .next and node_modules folders on GitHub — this is normal and follows best practices.
+
+To run the project after downloading:
+
+npm install
+
+npm run dev
+
+## Contributing
+
 Feel free to fork, clone, and make PRs. Suggestions are welcome.
 
- License
+## License
+
 MIT License — use freely, but give credit where due.
